@@ -18,10 +18,7 @@ export class AppComponent {
     { title: 'vida', url: '/vida', icon: 'heart' },
     { title: 'informacion', url: '/informacion', icon: 'archive' },
     { title: 'momentos', url: '/momentos', icon: 'trash' },
-    { title: 'contratame', url: '/contratame', icon: 'warning' },
-    { title: 'psj1', url: '/psj1', icon: 'bookmark' },
-    { title: 'psj2', url: '/psj2', icon: 'bookmark' },
-    { title: 'psj3', url: '/psj3', icon: 'bookmark' }
+    { title: 'contratame', url: '/contratame', icon: 'warning' }
   ];
   constructor() {
     addIcons({ mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp });
