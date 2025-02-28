@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { IonApp, IonSplitPane, IonMenu, IonContent, IonList, IonListHeader, IonNote, IonMenuToggle, IonItem, IonIcon, IonLabel, IonRouterOutlet, IonRouterLink } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp } from 'ionicons/icons';
+import { accessibilityOutline, accessibilitySharp, apertureOutline, apertureSharp, basketballOutline, basketballSharp, colorPaletteOutline, colorPaletteSharp, giftOutline, giftSharp, heartHalfOutline, heartHalfSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp } from 'ionicons/icons';
 
 @Component({
   selector: 'app-root',
@@ -13,14 +13,14 @@ import { mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutlin
 })
 export class AppComponent {
   public appPages = [
-    { title: 'inicio', url: '/inicio', icon: 'mail' },
-    { title: 'personajes', url: '/personajes', icon: 'paper-plane' },
-    { title: 'vida', url: '/vida', icon: 'heart' },
-    { title: 'informacion', url: '/informacion', icon: 'archive' },
-    { title: 'momentos', url: '/momentos', icon: 'trash' },
-    { title: 'contratame', url: '/contratame', icon: 'warning' }
+    { title: 'Portada', url: '/inicio', icon: 'accessibility' },
+    { title: 'Acerca de', url: '/informacion', icon: 'aperture' },
+    { title: 'Personajes', url: '/personajes', icon: 'basketball' },
+    { title: 'En mi vida', url: '/vida', icon: 'heart-half' },
+    { title: 'Momentos', url: '/momentos', icon: 'color-palette' },
+    { title: 'Contacto', url: '/contratame', icon: 'mail' }
   ];
   constructor() {
-    addIcons({ mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp });
+    addIcons({  accessibilityOutline, accessibilitySharp, apertureOutline, apertureSharp, basketballOutline, basketballSharp, colorPaletteOutline, colorPaletteSharp, giftOutline, giftSharp, heartHalfOutline, heartHalfSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp });
   }
 }
