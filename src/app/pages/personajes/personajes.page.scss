@@ -5,20 +5,14 @@ ion-content {
     height: 100vh; 
 }
 
-.card-container {
-    display: flex;
-    gap: 20px; 
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: flex-start; 
-}
+
 
 ion-card {
     position: static;
     transform: none;
     width: 250px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .imagen1,

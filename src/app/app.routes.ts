@@ -42,4 +42,16 @@ export const routes: Routes = [
     path: 'psj3',
     loadComponent: () => import('./pages/psjdetalle/psj3/psj3.page').then( m => m.Psj3Page)
   },
+  {
+    path: 'momento1',
+    loadComponent: () => import('./pages/momentodetalle/momento1/momento1.page').then( m => m.Momento1Page)
+  },
+  {
+    path: 'momento2',
+    loadComponent: () => import('./pages/momentodetalle/momento2/momento2.page').then( m => m.Momento2Page)
+  },
+  {
+    path: 'momento3',
+    loadComponent: () => import('./pages/momentodetalle/momento3/momento3.page').then( m => m.Momento3Page)
+  },
 ];

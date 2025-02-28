@@ -1,13 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>psj2</ion-title>
+    <ion-title>Shadow The Hedgehog</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">psj2</ion-title>
+      <ion-title size="large">Shadow The Hedgehog</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <div class="card-container">
+    <ion-card>
+      <img src="../assets/shadow1.webp" alt="habichuela" class="imagen1"/>
+      <ion-item>
+        <ion-label>
+          Shadow the Hedgehog es un personaje que aparece en la serie de películas Sonic the Hedgehog producida por Paramount Pictures. 
+          Es un erizo antropomórfico alienígena que cayó a la Tierra en un meteorito y se convirtió en parte de un experimento secreto del gobierno llamado Proyecto Shadow, 
+          dirigido por el Profesor Gerald Robotnik. 
+        </ion-label>
+      </ion-item>
+      <ion-button routerLink="/personajes" expand="full" color="danger">
+        Volver Atrás
+      </ion-button>
+    </ion-card>
+  </div>
 </ion-content>
