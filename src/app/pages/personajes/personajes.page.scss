@@ -5,12 +5,17 @@ ion-content {
     height: 100vh; 
 }
 
-
+.card-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: flex-start; 
+}
 
 ion-card {
     position: static;
     transform: none;
-    width: 250px;
     text-align: center;
     margin-top: 50px;
 }
@@ -18,7 +23,7 @@ ion-card {
 .imagen1,
 .imagen2,
 .imagen3 {
-    width: 250px;
+    width: 750px;
     height: auto; 
     object-fit: cover; 
 }
